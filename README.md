@@ -1,6 +1,6 @@
 [Ondrej Sika (sika.io)](https://sika.io) | <ondrej@sika.io> | [join slack](https://sika.link/slack-sikapublic), [open slack](https://sikapublic.slack.com) | [join.sika.io](https://join.sika.io)
 
-# training-openshift-ceps23
+# OpenShift Training for CEPS
 
 ## About Me - Ondrej Sika
 

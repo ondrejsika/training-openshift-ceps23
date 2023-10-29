@@ -2,6 +2,24 @@
 
 # training-openshift-ceps23
 
+## About Me - Ondrej Sika
+
+Freelance DevOps Engineer, Consultant & Lecturer
+
+**<https://sika.io>**
+
+- Complete DevOps Stack
+- Open Source / Linux
+- Cloud & On-Premise (Azure, AWS, VMWare, ...)
+- Technologies:
+  - Git, Gitlab
+  - Gitlab CI
+  - Docker
+  - Kubernetes
+  - Terraform
+  - Prometheus, Grafana & Loki
+  - ...
+
 ## Notes
 
 https://docs.google.com/document/d/1tbpZIk16tb4iTiJjb7xWouoSYqAAqDLrqVKa1vp0Q-A/edit

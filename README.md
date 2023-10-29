@@ -43,6 +43,20 @@ Vice informaci na **<https://kniha.sika.io>**
 
 https://docs.google.com/document/d/1tbpZIk16tb4iTiJjb7xWouoSYqAAqDLrqVKa1vp0Q-A/edit
 
+## About the Training
+
+Training is based on RedHat's courses:
+
+- DO080 - Containers, Kubernetes and Red Hat OpenShift Technical Overview
+- DO101 - Introduction to OpenShift Applications
+- DO180 Red Hat OpenShift Administration I: Operating a Production Cluster
+
+and Ondrej Sika's courses:
+
+- Git Training
+- Docker Training
+- OKD (OpenShift) Training
+
 ## Related repositories
 
 - Skoleni Git - https://github.com/ondrejsika/git-training

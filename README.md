@@ -64,6 +64,43 @@ and Ondrej Sika's courses:
 - Skoleni Kubernetes - https://github.com/ondrejsika/kubernetes-training
 - Skoleni OKD (OpenShift) - https://github.com/ondrejsika/okd-training
 
+## Install OKD
+
+<https://www.okd.io/installation/>
+
+Create installation directory
+
+```
+mkdir okd
+cd okd
+```
+
+Download openshift-install (OKD)
+
+```
+slu install-bin openshift-install-okd -d .
+```
+
+Create install config
+
+```
+./openshift-install-okd create install-config
+```
+
+Create cluster
+
+```
+./openshift-install-okd create cluster
+```
+
+### Destroy OKD Cluster
+
+If you want to destroy cluster
+
+```
+./openshift-install-okd destroy cluster
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**

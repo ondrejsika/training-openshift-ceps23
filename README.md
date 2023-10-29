@@ -20,6 +20,12 @@ Freelance DevOps Engineer, Consultant & Lecturer
   - Prometheus, Grafana & Loki
   - ...
 
+## DevOps Live - Live Coding streamy na DevOps temata
+
+DevOps live jsou streamy live codingu zajímavých témat z DevOps, novinky nebo témata, na která se při školeních nedostanu.
+
+**<https://devopslive.cz>**
+
 ## Notes
 
 https://docs.google.com/document/d/1tbpZIk16tb4iTiJjb7xWouoSYqAAqDLrqVKa1vp0Q-A/edit

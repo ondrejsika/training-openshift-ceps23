@@ -26,6 +26,19 @@ DevOps live jsou streamy live codingu zajímavých témat z DevOps, novinky nebo
 
 **<https://devopslive.cz>**
 
+## DevOps Kniha
+
+- Úvod do DevOps a proč by Vás mělo zajímat
+- Kultura DevOps
+- Moderní DevOps Stack
+- Jak navrhnout moderní DevOps architekturu
+- Kontejnery, Kubernetes, Terraform, ... deep dive
+- Vyhody public cloudů i on-premise
+- Automatizace a GitOps
+- Mnoho příkladů a ukázek
+
+Vice informaci na **<https://kniha.sika.io>**
+
 ## Notes
 
 https://docs.google.com/document/d/1tbpZIk16tb4iTiJjb7xWouoSYqAAqDLrqVKa1vp0Q-A/edit

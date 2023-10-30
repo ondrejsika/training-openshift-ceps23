@@ -101,6 +101,23 @@ If you want to destroy cluster
 ./openshift-install-okd destroy cluster
 ```
 
+## Basic Setup
+
+### Default Ingress Certificate
+
+```
+oc create secret tls custom-certificate-secret \
+  -n openshift-ingress \
+  --cert=.lego/certificates/okd.aws.sikademo.com.crt \
+  --key=.lego/certificates/okd.aws.sikademo.com.key
+```
+
+```
+oc patch ingresscontroller.operator.openshift.io/default \
+  -n openshift-ingress-operator \
+  --type=merge -p '{"spec":{"defaultCertificate": {"name": "custom-certificate-secret"}}}'
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**

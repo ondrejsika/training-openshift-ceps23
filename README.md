@@ -118,6 +118,34 @@ oc patch ingresscontroller.operator.openshift.io/default \
   --type=merge -p '{"spec":{"defaultCertificate": {"name": "custom-certificate-secret"}}}'
 ```
 
+### Setup SSO
+
+Setup OAuth here: <https://console-openshift-console.apps.okd.aws.sikademo.com/k8s/cluster/config.openshift.io~v1~OAuth/cluster>
+
+or apply for SikaLabs SSO
+
+```
+oc apply -f oauth_sikalabs.yml
+```
+
+or for SikaLabs SSO and SikaDemo SSO
+
+```
+oc apply -f oauth_sikalabs_sikademo.yml
+```
+
+and make `ondrej@sika.io` cluster admin
+
+```
+oc adm policy add-cluster-role-to-user cluster-admin ondrej@sika.io
+```
+
+or `okd-admin@sikademo.com` cluster admin as well
+
+```
+oc adm policy add-cluster-role-to-user cluster-admin okd-admin@sikademo.com
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**

@@ -146,6 +146,16 @@ or `okd-admin@sikademo.com` cluster admin as well
 oc adm policy add-cluster-role-to-user cluster-admin okd-admin@sikademo.com
 ```
 
+## Connection to Demo Cluster
+
+- Console: https://console-openshift-console.apps.okd.aws.sikademo.com/
+- kubedmin
+  - usename: `kubeadmin`
+  - password: `SZCiv-ZXYmP-wQ3CY-wP4Xu`
+- SikaDemo SSO
+  - usename: `okd-admin`
+  - password: `a`
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**

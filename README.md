@@ -156,6 +156,11 @@ oc adm policy add-cluster-role-to-user cluster-admin okd-admin@sikademo.com
   - usename: `okd-admin`
   - password: `a`
 
+## Repositories we've created
+
+- https://github.com/sika-training-examples/2023-11-03_ceps_counter_helm_example
+- https://github.com/sika-training-examples/2023-11-03-ceps-cz-website-example
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
